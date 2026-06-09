@@ -1,6 +1,6 @@
 # 30 Days Of Python Exercise Solutions
 
-This repository includes all the solutions for the exercises from the 30 Days Of Python Repository accordingly.
+This repository includes all the solutions for the exercises in the [30 Days Of Python](https://github.com/Asabeneh/30-Days-Of-Python) Repository by Asabeneh.
 
 The file names are named according to the day exercises.
 
