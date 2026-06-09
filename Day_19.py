@@ -353,7 +353,7 @@ def check_speech_similarity(first_file, second_file):
     second_words_without_stop_words = set(remove_support_words(cleaned_second_words).split())
     # print("First Words", first_words_without_stop_words)
     # print("Second Words", second_words_without_stop_words)
-    
+
     # Check percentage similarity
     get_similarity = check_text_similarity(first_words_without_stop_words, second_words_without_stop_words)
 
@@ -427,7 +427,7 @@ def read_csv_javasrcipt(filename):
                 if re.search(pattern, ', '.join(row)):
                     line_count += 1
             
-    return f'Number of lines containinf JavaScript or javasript or Javascript is {line_count}'
+    return f'Number of lines containing JavaScript or javasript or Javascript is {line_count}'
 
 
 print(read_csv_javasrcipt('./data/hacker_news.csv'))
