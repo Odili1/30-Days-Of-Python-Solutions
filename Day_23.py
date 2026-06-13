@@ -7,7 +7,7 @@
 # python -m venv venv (or any name you want to give to your virtual environment folder)
 
 # Acrivate the virtual environment
-# venv/Scipts/activate
+# source venv/Scipts/activate
 
 
 # Once the virtual environment is activated, you can install packages using pip and they will be installed in the virtual environment, not globally
